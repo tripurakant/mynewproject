@@ -1,30 +1,22 @@
-
-var input = document.getElementById("p");
+var y =document.getElementById("p");
 
 
 
 function myFunction() {
-   
-        var number =Math.floor((Math.random() * 9) + 1) +" "+Math.floor((Math.random() * 9) + 1)+" "+Math.floor((Math.random() * 9) + 1); 
-    document.getElementById("demo").innerHTML = number;
-    ele.innerHTML = number
 
-    if (number%2==0) {
-        input.textContent += "300 bonus";
-    }
-    else {
-        input.textContent += "You have now 900 point";                                                
-    }
+        var x = document.getElementById("demo"); 
+        randomNum =Math.floor((Math.random() * 9) + 1) +" "+Math.floor((Math.random() * 9) + 1)+" "+Math.floor((Math.random() * 9) + 1); 
+        x.innerHTML = "  " +randomNum;
 
+        if (randomNum[0] && randomNum[1] && randomNum[2] % 2 == 0)  {
+          y.innerHTML = "  " +"CONGRATS EVEN NUMBER 300 POINTS FOR YOU";
+      } else {
+          y.innerHTML = "  " +  "CONGRATS ODD NUMBER 300 POINTS FOR YOU";
+      }
+    }
 
     
 
-    }
     
-    count = 1000;
-  button.onclick = function() {
-    count -= 100;
-    button.innerHTML = "Click me: " + count;
-  };
-    
+
 
