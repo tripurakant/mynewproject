@@ -1,1 +1,1 @@
-# my-website
+https://tripurakant.github.io/mynewproject/
