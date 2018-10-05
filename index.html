@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h2>The rules of the game are:</h2>
+<div>
+  <ul>
+    <li>When the game starts,you have 1000 INR.</li>
+    <li>Every time you press start,3 random numbers are generated,100 
+      INR gets deducted.</li>
+    <li>If the random numbers are either even or odd,you get 300 INR. 
+                        </li>
+    <li>If all the random numbers are  in sequence with difference of 1 
+            in any order(eg: 123,012, ...etc),you get 800 INR</li>
+    <li>If all the random numbers are same,you get 1000 INR.</li>
+    <li>If INR reaches 0, Game Over. </li>
+  </ul>
+</div>
+<p id="kant">You have 1000 INR.</p>
+<button id = "Click me" onclick="randomizer()">Start</button>
+<p></p>
+<button class="button1" id="demo1" onclick=" randomizer()">x</button>
+<button class="button2" id="demo2" onclick=" randomizer()">x</button>
+<button class="button3" id="demo3" onclick=" randomizer()">x</button>
+<p id="tripura"></p>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
